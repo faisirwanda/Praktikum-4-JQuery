@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- deklarasi atau pemanggilan file jquery -->
+	<script src="jquery-3.6.0.min.js"></script> 
+	<script type="text/javascript">
+	$(document).ready(function(){ 
+		$(".sembunyi").click(function() {$("#foto").hide("slow")}); //deklarasi fungsi button sembunyi
+		$(".tampil").click(function() {$("#foto").show("slow")}); //deklarasi fungsi button tampil
+	});
+	</script>
+	
+	<title>JQ</title>
+</head>
+<body>
+
+<button class="sembunyi">Sembunyikan</button> <!-- button sembunyikan -->
+<button class="tampil">Tampilkan</button> <!-- button tampilkan -->
+<p><img id = "foto" src="logoupn.png"></p> <!-- gambar -->
+</body>
+</html>
